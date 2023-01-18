@@ -334,7 +334,12 @@ footer {
     .feature-desc {
         text-align: center;
     }
-
+    .feature-person-img img{
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .feature-section-paragraph {
         margin-bottom: 30px;
     }
