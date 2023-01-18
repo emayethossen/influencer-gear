@@ -77,7 +77,6 @@ ul li a {
     background-size: 100%;
 }
 
-.head-img img {}
 
 .head-sec-title {
     font-weight: 700;
@@ -109,7 +108,6 @@ ul li a {
 }
 
 /* Card Section Styles */
-.card-section {}
 
 .card-sec-title {
     text-align: center;
@@ -198,7 +196,6 @@ ul li a {
     font-weight: 900;
 }
 
-.feature-person-img {}
 
 .btn-join {
     border-radius: 5px;
@@ -244,4 +241,92 @@ footer {
 
 .fa-github {
     color: #7E868E;
+}
+
+/* Responsive Design */
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .head-title {
+        text-align: center;
+    }
+
+    ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-magnifying-glass,
+    .fa-cart-shopping {
+        display: none;
+    }
+
+    .head-section {
+        flex-direction: column-reverse;
+
+    }
+
+    .head-sec-title {
+        font-size: 28px;
+    }
+
+    .head-sec {
+        width: 80%;
+
+        margin: auto;
+        text-align: center;
+    }
+
+    .head-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -20px;
+    }
+
+    .company-container {
+        text-align: center;
+    }
+
+    .company-logo {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 40px;
+    }
+
+    .card-details {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+
+    .card-img img {
+        width: 100%;
+    }
+
+    .card-desc {
+        width: 60%;
+    }
+
+    .btn-sec {
+        text-align: center;
+        width: 100%;
+    }
+
+    .feature-section {
+        flex-direction: column-reverse;
+
+    }
+
+    .feature-desc {
+        text-align: center;
+    }
+
+    .feature-section-paragraph {
+        margin-bottom: 30px;
+    }
 }
