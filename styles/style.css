@@ -272,6 +272,15 @@ footer {
 
     }
 
+    .head-img {}
+
+    .head-img img {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .head-sec-title {
         font-size: 28px;
     }
